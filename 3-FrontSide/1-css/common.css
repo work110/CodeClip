@@ -1,0 +1,62 @@
+/* 【全局】标签选择器 QW*/
+/* =================================================================================== */
+/* 常用标签去边框 */
+a, b, body, dd, del, div, dl, dt, em, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var, input {
+    margin: 0;
+    padding: 0;
+}
+
+/* 全局默认字体 */
+body {
+    font: 12px/1.5 'microsoft yahei',Arial, Verdana, "\5b8b\4f53";
+    color: #666;
+}
+
+
+/* A标签 */
+a {
+    color: #666;
+    text-decoration: none;
+    font-family: 'microsoft yahei';
+}
+
+/* 列表 */
+li {
+    list-style: none; /* 去除有序列表样式 */
+}
+
+/* 按键图片去边框 */
+img,button,input {
+    border: 0;
+}
+
+/* 小字体保证字体样式 */
+em, i, u {
+    font-style: normal;
+}
+
+
+/* 【全局】class类选择器 QW*/
+/* =================================================================================== */
+/* 全局大容器宽度，对齐方式：居中 */
+.content{
+	width:1200px;
+	margin:0 auto;
+}
+
+/* 尾部清除浮动 */
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/* 弹性布局左右浮动 */
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
